@@ -4,7 +4,7 @@
 
 
 #data <- read.table(dataFile, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
-setwd("D:/2014/FREE_COURSES_&_LEARNING_THINGS/BIG_Data_COURSES/COURSERA_Exploratory_data_analysis/Course_Project1/")
+#setwd("D:/2014/FREE_COURSES_&_LEARNING_THINGS/BIG_Data_COURSES/COURSERA_Exploratory_data_analysis/Course_Project1/")
 #read.data command to import the file
 y<-read.table("household_power_consumption_2007_2.txt",head=T,sep=";",dec=".")
 class(y)
